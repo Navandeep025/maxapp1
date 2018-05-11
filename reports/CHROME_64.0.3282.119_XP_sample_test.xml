@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="sample_test"
+    errors="1" failures="0" hostname="" id="" package="sample_test" skipped="0"
+    tests="2" time="53.15" timestamp="Wed, 31 Jan 2018 09:24:17 GMT">
+  
+    <testcase name="Test 1 : Check If Max Health Care URL is accessibles " classname="sample_test" time="48.95" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test 2 : Check the homapage has submit button" classname="sample_test" time="4.206" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;button[name=Submit]&#34; using: css selector
+    at Object.Test 2 : Check the homapage has submit button (F:\max-app\tests\sample_test.js:25:8)
+    at Module.call (F:\max-app\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at F:\max-app\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (F:\max-app\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (F:\max-app\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (F:\max-app\node_modules\q\q.js:796:13)
+    at F:\max-app\node_modules\q\q.js:556:49
+    at runSingle (F:\max-app\node_modules\q\q.js:137:13)
+    at flush (F:\max-app\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

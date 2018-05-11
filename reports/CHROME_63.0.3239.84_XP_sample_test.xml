@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="sample_test"
+    errors="0" failures="1" hostname="" id="" package="sample_test" skipped="0"
+    tests="1" time="21.23" timestamp="Tue, 30 Jan 2018 11:12:57 GMT">
+  
+    <testcase name="Demo test Google" classname="sample_test" time="21.23" assertions="1">  <failure message="Testing if the page title equals &#34;Max Health Care&#34;.">    at Object.Demo test Google (F:\max-app\tests\sample_test.js:8:15)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
