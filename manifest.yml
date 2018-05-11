@@ -1,8 +1,8 @@
 ---
 applications:
-- name: maxapp
+- name: maxapp1
   memory: 512M
-  path: E:\maxapp
-  buildpath: https://github.com/Navandeep025/maxapp.git
+  path: E:\maxapp1
+  buildpath: https://github.com/Navandeep025/maxapp1.git
   random-route: true
   command: npm run forever 
